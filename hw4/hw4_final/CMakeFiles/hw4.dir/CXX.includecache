@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Desktop/hw4/main.cpp
+shell.h
+/home/pi/Desktop/hw4/shell.h
+
+/home/pi/Desktop/hw4/shell.h
+iostream
+-
+unistd.h
+-
+vector
+-
+cstring
+-
+string
+-
+sstream
+-
+numeric
+-
+

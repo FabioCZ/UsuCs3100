@@ -1,0 +1,6 @@
+Help for FIFO scheduler:
+-c  --cpu       set number of CPUs (Integer greater than 1)
+-i  --io        set number of IO devices (Integer greater than 1)
+-s  --switch    cost of a context switch (Double greater than 1)
+-t  --task-mix  Task mix percentage (Double greater than 0, smaller than 100)
+-f  --frequency Frequency of task creating (Double greater than 0)

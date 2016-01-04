@@ -1,0 +1,380 @@
+[0]: Adding IO heavy task, which starts at: 1.000000 id: 0 num bursts: 7
+[1]: executing task, id: 0 , currBurst:0
+[2.1]: Adding IO heavy task, which starts at: 3.100000 id: 1 num bursts: 7
+[3.1]: executing task, id: 1 , currBurst:0
+[4.2]: Adding CPU heavy task, which starts at: 5.200000 id: 2 num bursts: 7
+[5.2]: executing task, id: 2 , currBurst:0
+[6.3]: Adding CPU heavy task, which starts at: 7.300000 id: 3 num bursts: 9
+[7.14354]: done cpu
+[7.14354]: executing task, id: 0 , currBurst:1
+[7.3]: executing task, id: 3 , currBurst:0
+[8.4]: Adding IO heavy task, which starts at: 9.400000 id: 4 num bursts: 10
+[9.4]: executing task, id: 4 , currBurst:0
+[10.5]: Adding IO heavy task, which starts at: 11.500000 id: 5 num bursts: 9
+[11.5]: executing task, id: 5 , currBurst:0
+[12.6]: Adding IO heavy task, which starts at: 13.600000 id: 6 num bursts: 6
+[13.6]: executing task, id: 6 , currBurst:0
+[13.9683]: done cpu
+[13.9683]: executing task, id: 1 , currBurst:1
+[14.7]: Adding IO heavy task, which starts at: 15.700000 id: 7 num bursts: 9
+[15.7]: executing task, id: 7 , currBurst:0
+[16.8]: Adding IO heavy task, which starts at: 17.800000 id: 8 num bursts: 7
+[17.8]: executing task, id: 8 , currBurst:0
+[18.9]: Adding CPU heavy task, which starts at: 19.900000 id: 9 num bursts: 9
+[19.9]: executing task, id: 9 , currBurst:0
+[21]: Adding CPU heavy task, which starts at: 22.000000 id: 10 num bursts: 5
+[22]: executing task, id: 10 , currBurst:0
+[23.1]: Adding CPU heavy task, which starts at: 24.100000 id: 11 num bursts: 8
+[24.1]: executing task, id: 11 , currBurst:0
+[25.2]: Adding CPU heavy task, which starts at: 26.200000 id: 12 num bursts: 10
+[26.2]: executing task, id: 12 , currBurst:0
+[27.3]: Adding IO heavy task, which starts at: 28.300000 id: 13 num bursts: 9
+[28.3]: executing task, id: 13 , currBurst:0
+[29.4]: Adding IO heavy task, which starts at: 30.400000 id: 14 num bursts: 10
+[30.4]: executing task, id: 14 , currBurst:0
+[31.2271]: io done, io_num:1 owner task id: 0
+[31.2271]: executing task, id: 0 , currBurst:2
+[31.5]: Adding CPU heavy task, which starts at: 32.500000 id: 15 num bursts: 10
+[32.5]: executing task, id: 15 , currBurst:0
+[33.3171]: done cpu
+[33.3171]: executing task, id: 2 , currBurst:1
+[33.6]: Adding IO heavy task, which starts at: 34.600000 id: 16 num bursts: 6
+[34.6]: executing task, id: 16 , currBurst:0
+[35.7]: Adding IO heavy task, which starts at: 36.700000 id: 17 num bursts: 6
+[35.7598]: io done, io_num:0 owner task id: 1
+[35.7598]: executing task, id: 1 , currBurst:2
+[36.7]: executing task, id: 17 , currBurst:0
+[37.8]: Adding IO heavy task, which starts at: 38.800000 id: 18 num bursts: 10
+[38.8]: executing task, id: 18 , currBurst:0
+[39.9]: Adding CPU heavy task, which starts at: 40.900000 id: 19 num bursts: 10
+[40.8142]: io done, io_num:0 owner task id: 2
+[40.8142]: executing task, id: 2 , currBurst:2
+[40.9]: executing task, id: 19 , currBurst:0
+[51.8271]: done cpu
+[51.8271]: executing task, id: 3 , currBurst:1
+[57.0649]: io done, io_num:4 owner task id: 3
+[57.0649]: executing task, id: 3 , currBurst:2
+[59.0353]: done cpu
+[59.0353]: executing task, id: 4 , currBurst:1
+[65.0319]: done cpu
+[65.0319]: executing task, id: 5 , currBurst:1
+[70.2259]: done cpu
+[70.2259]: executing task, id: 6 , currBurst:1
+[76.2321]: done cpu
+[76.2321]: executing task, id: 7 , currBurst:1
+[82.6755]: io done, io_num:1 owner task id: 4
+[82.6755]: executing task, id: 4 , currBurst:2
+[84.2903]: done cpu
+[84.2903]: executing task, id: 8 , currBurst:1
+[88.009]: io done, io_num:4 owner task id: 5
+[88.009]: executing task, id: 5 , currBurst:2
+[91.5957]: io done, io_num:2 owner task id: 6
+[91.5957]: executing task, id: 6 , currBurst:2
+[102.295]: done cpu
+[102.295]: executing task, id: 9 , currBurst:1
+[111]: io done, io_num:4 owner task id: 7
+[111]: executing task, id: 7 , currBurst:2
+[121.061]: done cpu
+[121.061]: executing task, id: 10 , currBurst:1
+[126.93]: io done, io_num:1 owner task id: 10
+[126.93]: executing task, id: 10 , currBurst:2
+[134.023]: io done, io_num:4 owner task id: 8
+[134.023]: executing task, id: 8 , currBurst:2
+[139.97]: done cpu
+[139.97]: executing task, id: 11 , currBurst:1
+[140.594]: io done, io_num:4 owner task id: 9
+[140.594]: executing task, id: 9 , currBurst:2
+[145.718]: io done, io_num:2 owner task id: 11
+[145.718]: executing task, id: 11 , currBurst:2
+[159.04]: done cpu
+[159.04]: executing task, id: 12 , currBurst:1
+[164.191]: done cpu
+[164.191]: executing task, id: 13 , currBurst:1
+[165.09]: io done, io_num:3 owner task id: 12
+[165.09]: executing task, id: 12 , currBurst:2
+[169.46]: done cpu
+[169.46]: executing task, id: 14 , currBurst:1
+[176.16]: done cpu
+[176.16]: executing task, id: 0 , currBurst:3
+[188.019]: io done, io_num:0 owner task id: 13
+[188.019]: executing task, id: 13 , currBurst:2
+[194.065]: done cpu
+[194.065]: executing task, id: 15 , currBurst:1
+[194.745]: io done, io_num:3 owner task id: 14
+[194.745]: executing task, id: 14 , currBurst:2
+[198.216]: io done, io_num:1 owner task id: 0
+[198.216]: executing task, id: 0 , currBurst:4
+[202.311]: done cpu
+[202.311]: executing task, id: 16 , currBurst:1
+[204.842]: io done, io_num:1 owner task id: 15
+[204.842]: executing task, id: 15 , currBurst:2
+[208.032]: done cpu
+[208.032]: executing task, id: 1 , currBurst:3
+[214.696]: done cpu
+[214.696]: executing task, id: 17 , currBurst:1
+[221.748]: done cpu
+[221.748]: executing task, id: 18 , currBurst:1
+[226.541]: io done, io_num:4 owner task id: 16
+[226.541]: executing task, id: 16 , currBurst:2
+[236.902]: io done, io_num:0 owner task id: 17
+[236.902]: executing task, id: 17 , currBurst:2
+[240.298]: done cpu
+[240.298]: executing task, id: 2 , currBurst:3
+[245.669]: io done, io_num:3 owner task id: 2
+[245.669]: executing task, id: 2 , currBurst:4
+[251.563]: io done, io_num:4 owner task id: 1
+[251.563]: executing task, id: 1 , currBurst:4
+[258.232]: done cpu
+[258.232]: executing task, id: 19 , currBurst:1
+[276.278]: io done, io_num:4 owner task id: 18
+[276.278]: executing task, id: 18 , currBurst:2
+[277.587]: done cpu
+[277.587]: executing task, id: 3 , currBurst:3
+[280.922]: io done, io_num:4 owner task id: 19
+[280.922]: executing task, id: 19 , currBurst:2
+[283.624]: done cpu
+[283.624]: executing task, id: 4 , currBurst:3
+[284.202]: io done, io_num:3 owner task id: 3
+[284.202]: executing task, id: 3 , currBurst:4
+[291.295]: done cpu
+[291.295]: executing task, id: 5 , currBurst:3
+[296.898]: done cpu
+[296.898]: executing task, id: 6 , currBurst:3
+[302.725]: done cpu
+[302.725]: executing task, id: 7 , currBurst:3
+[308.82]: io done, io_num:0 owner task id: 4
+[308.82]: executing task, id: 4 , currBurst:4
+[315.125]: io done, io_num:4 owner task id: 5
+[315.125]: executing task, id: 5 , currBurst:4
+[319.421]: io done, io_num:1 owner task id: 6
+[319.421]: executing task, id: 6 , currBurst:4
+[321.314]: done cpu
+[321.314]: executing task, id: 10 , currBurst:3
+[328.656]: done cpu
+[328.656]: executing task, id: 8 , currBurst:3
+[331.176]: io done, io_num:0 owner task id: 7
+[331.176]: executing task, id: 7 , currBurst:4
+[338.702]: io done, io_num:0 owner task id: 10
+[338.702]: executing task, id: 10 , currBurst:4
+[347.692]: done cpu
+[347.692]: executing task, id: 9 , currBurst:3
+[352.532]: io done, io_num:2 owner task id: 8
+[352.532]: executing task, id: 8 , currBurst:4
+[354.317]: io done, io_num:4 owner task id: 9
+[354.317]: executing task, id: 9 , currBurst:4
+[364.397]: done cpu
+[364.397]: executing task, id: 11 , currBurst:3
+[369.048]: io done, io_num:3 owner task id: 11
+[369.048]: executing task, id: 11 , currBurst:4
+[383.944]: done cpu
+[383.944]: executing task, id: 12 , currBurst:3
+[388.928]: io done, io_num:2 owner task id: 12
+[388.928]: executing task, id: 12 , currBurst:4
+[389.501]: done cpu
+[389.501]: executing task, id: 13 , currBurst:3
+[395.655]: done cpu
+[395.655]: executing task, id: 14 , currBurst:3
+[401.903]: done cpu
+[401.903]: executing task, id: 0 , currBurst:5
+[414.044]: io done, io_num:2 owner task id: 13
+[414.044]: executing task, id: 13 , currBurst:4
+[418.601]: io done, io_num:3 owner task id: 14
+[418.601]: executing task, id: 14 , currBurst:4
+[420.93]: done cpu
+[420.93]: executing task, id: 15 , currBurst:3
+[423.621]: io done, io_num:1 owner task id: 0
+[423.621]: executing task, id: 0 , currBurst:6
+[428.002]: done cpu
+[428.002]: executing task, id: 16 , currBurst:3
+[429.78]: io done, io_num:1 owner task id: 15
+[429.78]: executing task, id: 15 , currBurst:4
+[437.694]: done cpu
+[437.694]: executing task, id: 17 , currBurst:3
+[452.608]: io done, io_num:1 owner task id: 16
+[452.608]: executing task, id: 16 , currBurst:4
+[455.62]: done cpu
+[455.62]: executing task, id: 2 , currBurst:5
+[460.348]: done cpu
+[460.348]: executing task, id: 1 , currBurst:5
+[465.398]: done cpu
+[465.398]: executing task, id: 18 , currBurst:3
+[474.465]: io done, io_num:1 owner task id: 17
+[474.465]: executing task, id: 17 , currBurst:4
+[479.121]: io done, io_num:1 owner task id: 2
+[479.121]: executing task, id: 2 , currBurst:6
+[483.438]: io done, io_num:3 owner task id: 1
+[483.438]: executing task, id: 1 , currBurst:6
+[483.711]: done cpu
+[483.711]: executing task, id: 19 , currBurst:3
+[490.479]: io done, io_num:2 owner task id: 19
+[490.479]: executing task, id: 19 , currBurst:4
+[501.497]: io done, io_num:1 owner task id: 18
+[501.497]: executing task, id: 18 , currBurst:4
+[502.127]: done cpu
+[502.127]: executing task, id: 3 , currBurst:5
+[507.922]: done cpu
+[507.922]: executing task, id: 4 , currBurst:5
+[508.801]: io done, io_num:3 owner task id: 3
+[508.801]: executing task, id: 3 , currBurst:6
+[514.809]: done cpu
+[514.809]: executing task, id: 5 , currBurst:5
+[520.6]: done cpu
+[520.6]: executing task, id: 6 , currBurst:5
+[529.71]: done cpu
+[529.71]: executing task, id: 7 , currBurst:5
+[532.706]: io done, io_num:1 owner task id: 4
+[532.706]: executing task, id: 4 , currBurst:6
+[537.686]: io done, io_num:0 owner task id: 5
+[537.686]: executing task, id: 5 , currBurst:6
+[544.316]: io done, io_num:2 owner task id: 6
+[544.316]: executing task, id: 6 , currBurst:6
+[546.346]: done cpu
+[546.346]: executing task, id: 10 , currBurst:5
+[551.067]: done cpu
+[551.067]: executing task, id: 8 , currBurst:5
+[555.779]: io done, io_num:1 owner task id: 7
+[555.779]: executing task, id: 7 , currBurst:6
+[569.342]: done cpu
+[569.342]: executing task, id: 9 , currBurst:5
+[573.168]: io done, io_num:3 owner task id: 8
+[573.168]: executing task, id: 8 , currBurst:6
+[578.889]: io done, io_num:3 owner task id: 9
+[578.889]: executing task, id: 9 , currBurst:6
+[587.91]: done cpu
+[587.91]: executing task, id: 11 , currBurst:5
+[593.337]: io done, io_num:0 owner task id: 11
+[593.337]: executing task, id: 11 , currBurst:6
+[605.978]: done cpu
+[605.978]: executing task, id: 12 , currBurst:5
+[610.731]: io done, io_num:1 owner task id: 12
+[610.731]: executing task, id: 12 , currBurst:6
+[611.046]: done cpu
+[611.046]: executing task, id: 13 , currBurst:5
+[619.01]: done cpu
+[619.01]: executing task, id: 14 , currBurst:5
+[625.417]: done cpu
+[625.417]: executing task, id: 0 , currBurst:7
+[635.401]: io done, io_num:4 owner task id: 13
+[635.401]: executing task, id: 13 , currBurst:6
+[641.519]: io done, io_num:3 owner task id: 14
+[641.519]: executing task, id: 14 , currBurst:6
+[642.592]: done cpu
+[642.592]: executing task, id: 15 , currBurst:5
+[647.512]: io done, io_num:3 owner task id: 15
+[647.512]: executing task, id: 15 , currBurst:6
+[647.576]: done cpu
+[647.576]: executing task, id: 16 , currBurst:5
+[654.99]: done cpu
+[654.99]: executing task, id: 17 , currBurst:5
+[670.522]: io done, io_num:0 owner task id: 16
+[670.522]: executing task, id: 16 , currBurst:6
+[672.999]: done cpu
+[672.999]: executing task, id: 2 , currBurst:7
+[679.003]: done cpu
+[679.003]: executing task, id: 1 , currBurst:7
+[693.983]: io done, io_num:0 owner task id: 17
+[693.983]: executing task, id: 17 , currBurst:6
+[697.415]: done cpu
+[697.415]: executing task, id: 19 , currBurst:5
+[702.715]: io done, io_num:4 owner task id: 19
+[702.715]: executing task, id: 19 , currBurst:6
+[703.231]: done cpu
+[703.231]: executing task, id: 18 , currBurst:5
+[722.509]: done cpu
+[722.509]: executing task, id: 3 , currBurst:7
+[726.444]: io done, io_num:3 owner task id: 18
+[726.444]: executing task, id: 18 , currBurst:6
+[727.947]: done cpu
+[727.947]: executing task, id: 4 , currBurst:7
+[729.718]: io done, io_num:1 owner task id: 3
+[729.718]: executing task, id: 3 , currBurst:8
+[733.874]: done cpu
+[733.874]: executing task, id: 5 , currBurst:7
+[740.167]: done cpu
+[740.167]: executing task, id: 7 , currBurst:7
+[746.494]: done cpu
+[746.494]: executing task, id: 8 , currBurst:7
+[754.952]: io done, io_num:1 owner task id: 4
+[754.952]: executing task, id: 4 , currBurst:8
+[764.598]: done cpu
+[764.598]: executing task, id: 9 , currBurst:7
+[771.738]: io done, io_num:3 owner task id: 9
+[771.738]: executing task, id: 9 , currBurst:8
+[777.823]: io done, io_num:1 owner task id: 5
+[777.823]: executing task, id: 5 , currBurst:8
+[782.851]: done cpu
+[782.851]: executing task, id: 11 , currBurst:7
+[800.987]: done cpu
+[800.987]: executing task, id: 12 , currBurst:7
+[802.168]: io done, io_num:1 owner task id: 7
+[802.168]: executing task, id: 7 , currBurst:8
+[807.105]: done cpu
+[807.105]: executing task, id: 13 , currBurst:7
+[807.286]: io done, io_num:0 owner task id: 12
+[807.286]: executing task, id: 12 , currBurst:8
+[808.019]: io done, io_num:1 owner task id: 11
+[808.019]: executing task, id: 11 , currBurst:8
+[814.419]: done cpu
+[814.419]: executing task, id: 14 , currBurst:7
+[829.399]: io done, io_num:2 owner task id: 13
+[829.399]: executing task, id: 13 , currBurst:8
+[832.522]: done cpu
+[832.522]: executing task, id: 15 , currBurst:7
+[837.709]: io done, io_num:4 owner task id: 14
+[837.709]: executing task, id: 14 , currBurst:8
+[838.811]: io done, io_num:2 owner task id: 15
+[838.811]: executing task, id: 15 , currBurst:8
+[852.736]: done cpu
+[852.736]: executing task, id: 19 , currBurst:7
+[858.891]: done cpu
+[858.891]: executing task, id: 18 , currBurst:7
+[858.891]: io done, io_num:0 owner task id: 19
+[858.891]: executing task, id: 19 , currBurst:8
+[876.983]: done cpu
+[876.983]: executing task, id: 3 , currBurst:9
+[880.778]: io done, io_num:3 owner task id: 18
+[880.778]: executing task, id: 18 , currBurst:8
+[883.925]: done cpu
+[883.925]: executing task, id: 4 , currBurst:9
+[903.299]: done cpu
+[903.299]: executing task, id: 9 , currBurst:9
+[908.673]: io done, io_num:4 owner task id: 4
+[908.673]: executing task, id: 4 , currBurst:10
+[911.219]: done cpu
+[911.219]: executing task, id: 5 , currBurst:9
+[917.607]: done cpu
+[917.607]: executing task, id: 7 , currBurst:9
+[937.062]: done cpu
+[937.062]: executing task, id: 12 , currBurst:9
+[942.446]: io done, io_num:1 owner task id: 12
+[942.446]: executing task, id: 12 , currBurst:10
+[942.985]: done cpu
+[942.985]: executing task, id: 13 , currBurst:9
+[949.956]: done cpu
+[949.956]: executing task, id: 14 , currBurst:9
+[969.144]: done cpu
+[969.144]: executing task, id: 15 , currBurst:9
+[972.212]: io done, io_num:0 owner task id: 14
+[972.212]: executing task, id: 14 , currBurst:10
+[975.508]: io done, io_num:3 owner task id: 15
+[975.508]: executing task, id: 15 , currBurst:10
+[986.243]: done cpu
+[986.243]: executing task, id: 19 , currBurst:9
+[992.446]: done cpu
+[992.446]: executing task, id: 18 , currBurst:9
+[993.002]: io done, io_num:3 owner task id: 19
+[993.002]: executing task, id: 19 , currBurst:10
+[1014.62]: io done, io_num:0 owner task id: 18
+[1014.62]: executing task, id: 18 , currBurst:10
+[1014.62]: sim_done event
+[1014.62]: response time: avg: 99.456979
+[1014.62]: response time: std dev: 62.327783
+[1014.62]: response time: min: 6.143543
+[1014.62]: response time: max: 217.332248
+[1014.62]: latency: avg: 705.734473
+[1014.62]: latency: std dev: 195.659927
+[1014.62]: latency: min: 316.701653
+[1014.62]: latency: max: 953.645534
+[1014.62]: utilized time: 991.445534
+[1014.62]: utilization: 97.715544%
+[1014.62]: throughput: 0.019712tasks/unit time
